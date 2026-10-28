@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    padding: 15px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    background-color: #c09292;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.navbar a {
+    color: #252542;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #635bff;
+}
+
+
+.wellcome {
+    width: 100%;
+    min-height: 450px;
+    padding: 70px 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-image:url("img/portfolioImg.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.section-heading h2 {
+    font-size: 34px;
+    line-height: 1.3;
+    color: #252542;
+    margin-bottom: 12px;
+}
+
+.aout_section{
+    color: #74748a;
+    font-size: 16px;
+}
+
+
+
+.services {
+    padding: 80px 8%;
+    background-color: #f8f8fc;
+    text-align: center;
+
+}
+
+.services-grid {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.service-card {
+    min-width: 0;
+    padding: 35px 25px;
+    background-color: #ffffff;
+    border: 1px solid #ededf5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.service-card:hover {
+    box-shadow: 0 12px 30px rgba(40, 40, 90, 0.09);
+}
+
+.service-card i {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #efeeff;
+    color: #635bff;
+    font-size: 32px;
+}
+
+.service-card h3 {
+    color: #252542;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #74748a;
+    font-size: 15px;
+}
+
+
+.portfolio {
+    padding: 80px 8%;
+    background-color: #ffffff;
+}
+
+.portfolio-grid {
+    display: flex;
+   justify-content: space-between;
+    gap: 30px;
+}
+
+.portfolio-item {
+    position: relative;
+    height: 280px;
+    min-width: 0;
+
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #eeeeF5;
+}
+
+.portfolio-item img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.06);
+}
+
+.portfolio-tag {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 35px 22px 20px;
+    color: #ffffff;
+
+}
+
+.portfolio-tag3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.portfolio-tag p {
+    color: #e0dfff;
+    font-size: 14px;
+}
+
+
+.blog {
+    padding: 80px 8%;
+    background-color: #f8f8fc;
+    text-align: center;
+}
+
+.blog-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px 25px;
+
+    background-color: #ffffff;
+    border: 1px solid #ededf5;
+    border-radius: 12px;
+}
+
+.blog-card i {
+    color: #635bff;
+    font-size: 40px;
+}
+
+.blog-card h3 {
+    margin: 12px 0;
+    font-size: 22px;
+}
+
+.blog-card p {
+    color: #74748a;
+}
+
+
+.contact {
+    padding: 80px 8%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 14px 25px;
+    margin-top: 5px;
+
+    color: #ffffff;
+    background-color: #635bff;
+    border-radius: 6px;
+
+    font-weight: bold;
+
+}
+
+.contact-btn:hover {
+    background-color: #4a42df;
+}
+
+.contact-btn i {
+    font-size: 20px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 25px 8%;
+
+    background-color: #252542;
+    color: #d7d7e8;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.social-links a {
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+.social-links a:hover {
+    color: #aaa5ff;
+}

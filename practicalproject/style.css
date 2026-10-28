@@ -1,0 +1,642 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.bg
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(main.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.header
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 5%;
+    margin-left: 25px;
+}
+.logo img
+{
+    width: 100%;
+}
+
+.web-name
+{
+    width: 150px;
+    /* height: 70px; */
+    color: white;
+    margin-right: 300px;
+}
+
+.web-name h4
+{
+    width: 100%;
+    font-size:30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.web-name p
+{
+    width: 100%;
+    font-size: 15px;
+}
+
+.about
+{
+    width: 60%;
+}
+
+.about a
+{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.about a:hover
+{
+    color: rgb(231, 68, 95);
+    transition: 1s;
+}
+
+.about i:hover
+{
+    color: rgb(231, 68, 95);
+    transition: 1s;
+}
+
+.quote
+{
+    width: 150px;
+    color: white;
+    background-color:  rgb(243, 71, 99);
+    text-align: center;
+}
+
+.quote h4
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i
+{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.mid-text
+{
+    color: white ;
+    /* width: 100%; */
+    height: 300px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.mid-text h1
+{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.mid-text h2
+{
+    font-size: 75px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.buttons
+{
+    position: absolute;
+    top: 65%;
+    left: 69%;
+}
+
+.buttons button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(255, 58, 91);
+    border: none;
+    outline: none;
+    margin: 2px;
+}
+
+button:hover
+{
+    color:rgb(255, 58, 91) ;
+    background-color: white;
+}
+
+.about-us
+{
+    width: 90%;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture
+{
+    width: 48%;
+}
+.picture img
+{
+    width: 100%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.content1
+{
+    width: 45%;
+}
+
+.head1
+{
+    width: 18%;
+    font-size: 20px;
+    margin-top:120px;
+    border-bottom: 2px solid rgb(211, 204, 204) ;
+    color:rgb(255, 58, 91) ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.headtext1
+{
+    margin-top: 70px;
+}
+
+.headtext1 h3
+{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph1
+{
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 102, 102);
+    line-height: 27px;
+}
+
+.details1
+{
+    display: flex;
+    margin-top:30px ;
+
+}
+
+.experience1
+{
+    text-align: center;
+}
+
+.experience1 h2
+{
+    font-size: 50px;
+    color:rgb(255, 58, 91) ;
+}
+
+.experience1 p
+{
+    margin-top: -10px;
+    color: rgb(65, 62, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conditions1
+{
+    margin-left: 50px;
+}
+
+.conditions1 ul
+{
+    list-style: none;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: 200;
+}
+
+.ri-check-line
+{
+    color:rgb(255, 58, 91);
+}
+
+.midline
+{
+    margin-left: 50px;
+    border-left: 2px solid rgb(230, 221, 221);
+}
+
+button
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-weight: 700;
+    height:40px;
+    width: 120px;
+    margin-top: 50px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(255, 58, 91);
+    border: none;
+    outline: none;
+}
+
+.services
+{
+    background-color: whitesmoke;
+    width: 97%;
+    margin: auto;
+    height: 550px;
+}
+.head2
+{
+    font-size: 16px;
+    color: rgb(255, 58, 91) ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 18px;
+    font-weight: 600;
+}
+
+.best
+{
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.columns-container
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column
+{
+    width: 23%;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.column h3
+{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.column p
+{
+    padding-top: 20px;
+    padding-left: 50px ;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55, 54, 54);
+}
+
+.column h4
+{
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(147, 144, 144);
+}
+
+.column h4 i
+{
+    color: rgb(147, 144, 144);
+    font-weight: 100;
+}
+
+.column:hover
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.pricing-container
+{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+}
+
+.head3
+{
+    font-size: 16px;
+    color: rgb(255, 58, 91) ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 18px;
+    font-weight: 600;
+}
+
+.prof
+{
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.price-container
+{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.price-details
+{
+
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    border:2px groove rgb(255, 255, 255) ;
+    border-radius: 10px;
+}
+
+.price-details p
+{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 129, 129);
+}
+
+.price-details  h3
+{
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(255, 58, 91)  ;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-details h5
+{
+    line-height: 50px;
+    color: rgb(99, 97, 97);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.price-details button
+{
+    width: 150px;
+}
+
+.price-details hr
+{
+    width: 250px;
+    color: WHITE;
+    margin: auto;
+}
+
+.price-details:hover
+{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.price-detalis button:hover
+{
+    color:  rgb(255, 58, 91);
+    background-color: white;
+}
+
+.price-details h5:hover
+{
+    color: rgb(134, 127, 127);
+}
+
+.footer
+{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(0, 0, 26);
+}
+
+.footer-container
+{
+    width: 90%;
+    height:400px ;
+    padding-top: 70px;
+    margin: auto;
+}
+
+.foot2
+{
+    width: 24%;
+}
+.foothead
+{
+    display: flex;
+}
+.footlogo
+{
+    width: 5%;
+}
+.footlogo img
+{
+    width: 100%;
+}
+
+.comp-name
+{
+    width: 200px;
+    margin-top: 8px;
+    color: white;
+}
+
+.comp-name p
+{
+    width: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comp-name h5
+{
+    width: 110px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot-text 
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.icons
+{
+    margin-top: 40px;
+}
+.foothead
+{
+    width: 24%;
+}
+.foothead2 p
+{
+    color:  rgb(255, 58, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    
+}
+
+.foot-list ul 
+{
+    width: 260px;
+    margin-top: 50px;
+}
+
+.foot-list ul li
+{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-list ul hr
+{
+    margin-top: 20px;
+}
+
+.foot-list ul li i
+{
+    color: rgb(255, 58, 91);
+}
+
+.foot1
+{
+    width: 24%;
+}
+
+.foot-list li .ri-arrow-right-s-line
+{
+    color: white;
+    margin-left:90px ;
+}
+
+.images
+{
+    width: 290px;
+    height: 180px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.images .box
+{
+    width: 30%;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box img
+{
+    width: 100%;
+    height: 75px;
+    border-radius:10px ;
+}
+
+.footend
+{
+    width: 80%;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    margin-left: 153px;
+}
+
+.credit
+{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.credit p
+{
+    color:rgb(255, 58, 91) ;
+}
